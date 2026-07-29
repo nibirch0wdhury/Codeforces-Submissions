@@ -8,7 +8,14 @@ typedef vector<int>   vi;
 typedef vector<ll>    vll;
 
 void solve(){
-    
+    int n, x; cin >> n;
+    vector <int> a(n);
+    unordered_map <int, int> mp;
+    for(int i = 0; i < n; i++){
+        cin >> a[i];
+        mp[a[i]]++;
+    }
+    for(int i = 0; i < n; i++)
 }
 
 int main(){

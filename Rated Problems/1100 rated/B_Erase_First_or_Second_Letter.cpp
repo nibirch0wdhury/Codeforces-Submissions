@@ -8,8 +8,10 @@ typedef vector<int>   vi;
 typedef vector<ll>    vll;
 
 void solve(){
-    
+    int n; cin>> n;
+    string s; cin >> s;
 }
+
 
 int main(){
     ios_base::sync_with_stdio(false);cin.tie(NULL);

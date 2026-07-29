@@ -8,12 +8,15 @@ typedef vector<int>   vi;
 typedef vector<ll>    vll;
 
 void solve(){
-    
+    string s; 
+    while(getline(cin, s)){
+        cout << "NO" << endl;
+    }
 }
 
 int main(){
     ios_base::sync_with_stdio(false);cin.tie(NULL);
     int tt = 1;
-    cin >> tt;
+    //cin >> tt;
     while(tt--)solve();
 }
