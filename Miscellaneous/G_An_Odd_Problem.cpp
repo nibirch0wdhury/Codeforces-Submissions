@@ -4,12 +4,24 @@ using namespace std;
 using ll = long long;
 #define yes    cout << "YES" << '\n';
 #define no     cout <<  "NO" << '\n';
-#define all(v) (v).begin(),(v).end()
 typedef vector<int>   vi;
 typedef vector<ll>    vll;
 
 void solve(){
-    
+    int n, m, k, mxaloc; cin >> n >> m >> k;
+    if(n >= k){
+        cout << k << endl;
+        return;
+    }
+    k -= n;
+    m -= 1;
+    if(m % 2 == 0){
+        mxaloc = m;
+    }
+    else{
+        mxaloc = m-1;
+    }
+    k/mxaloc
 }
 
 int main(){

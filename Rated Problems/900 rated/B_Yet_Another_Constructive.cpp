@@ -4,12 +4,11 @@ using namespace std;
 using ll = long long;
 #define yes    cout << "YES" << '\n';
 #define no     cout <<  "NO" << '\n';
-#define all(v) (v).begin(),(v).end()
 typedef vector<int>   vi;
 typedef vector<ll>    vll;
 
 void solve(){
-    
+    int n, k, m; cin >> n >> k >> m;
 }
 
 int main(){
